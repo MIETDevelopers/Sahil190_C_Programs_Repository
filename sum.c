@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
   int Number, Reminder, Sum=0;
@@ -8,6 +8,7 @@ int main()
 
   while(Number > 0)//Using while loop.
   {
+
   	//This is the formula to calculate sum of digits.
      Reminder = Number % 10;
      Sum = Sum+Reminder;
