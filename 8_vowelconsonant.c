@@ -1,4 +1,5 @@
-#include <stdio.h>
+//Program to check whether alphabet is vowel or consonant.
+#include <stdio.h>//header file
 
 int main()
 {
