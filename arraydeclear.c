@@ -1,6 +1,6 @@
 // Program to take 5 values from the user and store them in an array
 
-#include <stdio.h> //Pre-Process directive to include standard input output header file.
+#include <stdio.h> //Pre-Process directive to include standard input output header file
 
 int main() { // main function body starting
   int values[5]; // Array Declaration of size 5
