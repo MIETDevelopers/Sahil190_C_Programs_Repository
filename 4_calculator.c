@@ -1,15 +1,16 @@
-#include <stdio.h>
+//program uisng arithmetic operators
+#include <stdio.h>//header file
  
 int main()
 {
 	char Operator;
 	float num1, num2, result = 0;
 	
-	printf("\n Please Enter an Operator (+, -, *, /)  :  ");
-  	scanf("%c", &Operator);
+	printf("\n Please Enter an Operator (+, -, *, /)  :  ");//printing  the operator to be entered by the user
+  	scanf("%c", &Operator);//scanning operators
   	
-	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");
-  	scanf("%f%f", &num1, &num2);
+	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");//printing the numbers 
+  	scanf("%f%f", &num1, &num2);//scanning numbers
   	
   	switch(Operator)
   	{

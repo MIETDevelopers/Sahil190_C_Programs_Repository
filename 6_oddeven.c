@@ -1,14 +1,16 @@
-#include <stdio.h>
-int main() {
+//Program to check whether no. is odd or even.
+#include <stdio.h>//header file
+int main() //main function 
+{
     int num;
     printf("Enter an integer: ");
-    scanf("%d", &num);
-
+    scanf("%d", &num);//scanning number
+    
     // true if num is perfectly divisible by 2
     if(num % 2 == 0)
-        printf("%d is even.", num);
+        printf("%d is even.", num);//number is even
     else
-        printf("%d is odd.", num);
+        printf("%d is odd.", num);//number is odd
     
     return 0;
 }
