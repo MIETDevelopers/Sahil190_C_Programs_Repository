@@ -1,4 +1,4 @@
-//Array name as pointer representation and print its elements values
+//Array name as pointer representation and print its elements values.
 
 #include <stdio.h> //Pre process directive to include standard input output functions header file
 
